@@ -235,4 +235,4 @@ PR(Pull Request)을 요청 할 때, base repository의 main에 PR 요청을 보�
 
 ## 이름을 추가하자
 
-밑에 자신의 이름을 추가해보세요!
+밑에 자신의 이름을 추가해보세요!!!
