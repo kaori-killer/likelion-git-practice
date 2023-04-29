@@ -166,7 +166,7 @@ git add .
 git commit -m "Add readme.md"
 ```
 
-이후에 git rebase 명령으로 충돌이 발생할 수 있다. 충돌을 해결하고 난 뒤 git rebase --continue, git push
+이후에 git fetch -> git rebase 명령으로 충돌이 발생할 수 있다. 충돌을 해결하고 난 뒤 git add -> git rebase --continue -> git push
 
 ## GUI 도구 설치
 
@@ -232,5 +232,3 @@ PR(Pull Request)을 요청 할 때, base repository의 main에 PR 요청을 보�
 브랜치의 변경 점을 로컬에서 합치는 게 아니라 원격 저장소에서 합치는 것이다.
 
 이는, 브랜치를 합치기 전에 검증하는 과정이다. '내 코드가 머지될 수 있나요?'
-
-밑에 자신의 이름을 추가해보세요!
